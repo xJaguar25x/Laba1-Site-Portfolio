@@ -1,0 +1,18 @@
+{
+  "name": "victorsportfolio",
+  "version": "1.0.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . VictorsPortfolio --platform=win32 --arch=all --version=0.33.3 --app-version=0.1.0 --out=dist --ignore=dist --prune"
+  },
+  "author": "galyukviktor",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.7.9"
+  },
+  "description": "",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
